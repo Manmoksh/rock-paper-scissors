@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="title">Rock Paper Scissors</p>
+    <button
+      class="icon-btn"
+      onclick="playGame('✊')
+"
+    >
+      <span class="icon">✊</span>
+    </button>
+    <button onclick="playGame('🖐️')" class="icon-btn">
+      <span class="icon">🖐️</span>
+    </button>
+    <button onclick="playGame('✌️')" class="icon-btn">
+      <span class="icon">✌️</span>
+    </button>
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+    <button onclick="resetScore()" class="reset-btn">Reset Score</button>
+    <script src="app.js"></script>
+  </body>
+</html>
